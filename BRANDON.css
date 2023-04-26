@@ -1,0 +1,124 @@
+/* This container is for the entire background/base of the page. */
+*{
+    /* background-image: url("download.jpg");
+    background-position: center;
+    background-size: cover; */ 
+    /* background-color: #1E1E24; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('download.jpg');
+    background-color: #1E1E24; 
+
+}
+li, a, button{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 16px;
+    list-style-type: upper-roman;
+   
+}
+/* displays the header in flexbox with space between elements */
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    color:#1E1E24;
+    text-align: center;
+    font-size: 40px;
+    margin: 30px;
+    font-family: 'Allura', cursive;;
+    }
+#logoText
+{
+    font-size: 16px;
+    
+}
+h2{
+    color: #194d19;
+    font-family: 'Allura', cursive;font-family: 'Allura', cursive;;
+    font-size: 30px;
+    text-decoration: underline;
+}
+h2:hover{
+    transition: 1s;
+    font-size: 100px;
+    color: rgb(9, 243, 165);
+    
+}
+p{
+    
+    /* font-family:'Roboto Mono', monospace; */
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    color:#1E1E24;;
+}
+/* stacks the items to the side of each other. */
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    
+}
+
+/* .nav__links li a{
+    transition: ;
+} */
+
+.nav__links li a:hover{
+    cursor: pointer;
+    color: rgb(9, 243, 165);
+    transition-duration: 1s;
+    font-size: 25px;
+}
+
+.main__content{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    color: whitesmoke;
+    width: 100%;
+    padding: 0px 150px;
+    
+    
+}
+
+.about__content{
+    height: 33%;
+}
+.skills__content{
+    height: 33%;
+}
+.work__content{
+    height: 33%;    
+}
+#contact__btn{
+    margin-right: 15px;
+}
+
+.buttons{
+    font-size: 25px;
+    margin: 30px;
+    padding: 12px 28px;
+    border-radius: 8px;
+    color:rgb(9, 243, 165);
+    background-color: #1E1E24;
+    border: 2px solid gray;
+    transition-duration: 0.5s;
+    box-shadow: 0 8px 16px 0 rgba(220, 209, 209, 0.2), 0 6px 20px 0 rgba(220,209,209,0.2);
+    opacity: 0.5;
+    font-family:'Allura', cursive;
+}
+
+.buttons:hover{
+    cursor: pointer;
+    color:#1E1E24;
+    background-color: rgb(9, 243, 165);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
