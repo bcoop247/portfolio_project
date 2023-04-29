@@ -1,9 +1,5 @@
 /* This container is for the entire background/base of the page. */
 *{
-    /* background-image: url("download.jpg");
-    background-position: center;
-    background-size: cover; */ 
-    /* background-color: #1E1E24; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -28,20 +24,22 @@ header{
 }
 
 #logo{
-    color:#1E1E24;
+    color: rgba(9, 243, 165, 0.5);
     text-align: center;
     font-size: 40px;
     margin: 30px;
-    font-family: 'Allura', cursive;;
+    font-family: 'Allura', cursive;
     }
 #logoText
 {
     font-size: 16px;
-    
+    opacity: 0.5;
+    font-family: 'Vollkorn', serif;
 }
 h2{
-    color: #194d19;
-    font-family: 'Allura', cursive;font-family: 'Allura', cursive;;
+    color: whitesmoke;
+    font-family: 'Allura', cursive;
+
     font-size: 30px;
     text-decoration: underline;
 }
@@ -52,11 +50,9 @@ h2:hover{
     
 }
 p{
-    
-    /* font-family:'Roboto Mono', monospace; */
     font-size: 20px;
-    font-family: 'Roboto Mono', monospace;
-    color:#1E1E24;;
+    font-family: 'Vollkorn', serif;
+    color:#1E1E24;
 }
 /* stacks the items to the side of each other. */
 .nav__links li{
@@ -91,9 +87,11 @@ p{
 
 .about__content{
     height: 33%;
+    justify-content: space-evenly;
 }
 .skills__content{
     height: 33%;
+   
 }
 .work__content{
     height: 33%;    
@@ -122,3 +120,29 @@ p{
     background-color: rgb(9, 243, 165);
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
+
+.logo_images{
+    height: 150px;
+    opacity: 0.3;
+    width: 250px;
+}
+
+.projects{
+    height: 150px;
+    width: 250px;
+    background-color: #555;
+    text-align: center;
+    padding-top: 60px;
+    font-family: 'Vollkorn', serif;
+    text-decoration-color: aquamarine;
+    opacity: 0.5; 
+}
+.projects a {
+    color: rgb(9, 243, 165);
+    font-size: 32px;
+}
+
+
+
+
+
